@@ -68,18 +68,18 @@
             <form class="modal-form"> 
 
             <div class="modal-form-field">
+                <input class="modal-form-input" type="text" name="name" id="name" autofocus/> 
                 <label class="modal-form-label" for="name">Имя</label>
-                <input class="modal-fomr-input" type="text" name="name" id="name" autofocus/> 
             </div>
 
             <div class="modal-form-field"> 
-                <label modal-form-label for="tel">Телефон</label>
-                <input type ="tel" name="telephone" id="tel" autofocus/> 
+                <input class="modal-form-input" type ="tel" name="telephone" id="tel" autofocus/> 
+                <label class="modal-form-label" for="tel">Телефон</label>
             </div>
 
             <div class="modal-form-field">  
-                <label modal-form-label for="email">Почта</label>
-                <input type ="email" name="email" id="email" autofocus/> 
+                <input class="modal-form-input" type ="email" name="email" id="email" autofocus/> 
+                <label class="modal-form-label" for="email">Почта</label>
             </div>
             <div class="modal-form-comment"> 
                 <label for="comment">Комментарий</label> 
@@ -449,9 +449,8 @@
         <form class="form"> 
 
         <div class="form-field"> 
-        <label class="form-label">
-        <input type ="email" name="email" placeholder="E-mail" autofocus/>  
-        </label> 
+        <!-- <label class="form-label" for="e-mail"></label> -->
+        <input type ="email" name="email" id="email" placeholder="E-mail" autofocus/>  
         </div>
 
         <button class="btn-footer" type="submit">Подписаться
@@ -472,4 +471,3 @@
 </body>
 
 </html>
-
