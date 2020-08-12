@@ -65,21 +65,37 @@
                 <p class="modal-title">
                     Оставьте свои данные, мы вам перезвоним
                  </p> 
-            <form class="modal-form"> 
+            <form class="modal-form" autocomplete="off"> 
 
             <div class="modal-form-field">
-                <input class="modal-form-input" type="text" name="name" id="name" autofocus/> 
+                <input class="modal-form-input" type="text" name="name" id="name" placeholder=" " autofocus/> 
                 <label class="modal-form-label" for="name">Имя</label>
+                <span class="modal-icon">
+                    <svg  width="12" height="12">
+                        <use href="./images/sprite5.svg#icon-person"></use>
+                    </svg>
+                </span>
             </div>
 
             <div class="modal-form-field"> 
-                <input class="modal-form-input" type ="tel" name="telephone" id="tel" autofocus/> 
+                <input class="modal-form-input" type ="tel" name="telephone" id="tel" placeholder=" " autofocus/> 
                 <label class="modal-form-label" for="tel">Телефон</label>
+                <span class="modal-icon"> 
+                    <svg  width="13" height="13">
+                        <use href="./images/sprite5.svg#icon-phone-black"></use>
+                    </svg>
+                </span>
+                </span>
             </div>
 
             <div class="modal-form-field">  
-                <input class="modal-form-input" type ="email" name="email" id="email" autofocus/> 
+                <input class="modal-form-input" type ="email" name="email" id="email" placeholder=" " autofocus/> 
                 <label class="modal-form-label" for="email">Почта</label>
+                <span class="modal-icon"> 
+                    <svg  width="15" height="12">
+                        <use href="./images/sprite5.svg#icon-email-black"></use>
+                    </svg>
+                </span>
             </div>
             <div class="modal-form-comment"> 
                 <label for="comment">Комментарий</label> 

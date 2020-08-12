@@ -374,12 +374,13 @@ body{
     top: 50%;
     left: 15px;
     transform: translateY(-50%);
+    transition: transform 250mx linear;
 }
 
 .modal-form-input{  
     letter-spacing: 0.01em;
     color: var(--primary-text-color);
-
+    width: 100%;
     margin:0;
     padding-top: 11px;
     padding-bottom: 11px;
@@ -389,10 +390,17 @@ body{
     border-radius: 4px;
 }
 
-.modal-form-input:focus + .modal-form-label{
-    color: red;
+.modal-form-input:focus + .modal-form-label,
+.modal-form-input:not(:placeholder-shown) + .modal-form-label{
+    transform: translateY(-50px);
 }
 
+.modal-icon{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
 
 .modal-form-comment{
     display: flex;
