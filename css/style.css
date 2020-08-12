@@ -343,9 +343,6 @@ body{
    letter-spacing: 0.03em;
    color: var(--title-text-color);
 
-   padding-top: 40px;
-   padding-left: 40px;
-   padding-right: 40px; 
    margin-bottom: 12px;
 }
 
@@ -353,6 +350,7 @@ body{
     width: 448px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 40px;
 }
 
 .modal-form-label{
@@ -383,8 +381,8 @@ body{
     width: 100%;
     margin:0;
     padding-top: 11px;
-    padding-bottom: 11px;
-    padding-left: 12px;
+    padding-bottom: 10px;
+    padding-left: 40px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
