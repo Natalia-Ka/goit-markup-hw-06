@@ -400,6 +400,11 @@ body{
     top: 50%;
     left: 15px;
     transform: translateY(-50%);
+    color: #212121;
+}
+
+.modal-form-input:focus ~ .modal-icon{
+    color: #2196F3;
 }
 
 .modal-form-comment{
