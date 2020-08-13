@@ -398,11 +398,16 @@ body{
     top: 50%;
     left: 15px;
     transform: translateY(-50%);
-    color: #212121;
+    color:  #212121;
 }
 
-.modal-form-input:focus ~ .modal-icon{
+
+/* .modal-form-input:focus ~ .modal-icon{
     color: #2196F3;
+} */
+
+.modal-form-field:focus-within > .modal-icon{
+    background-color: #2196F3;
 }
 
 .modal-form-comment{
@@ -412,6 +417,7 @@ body{
     justify-content: center;
     margin-bottom: 20px;
 }
+
 
 textarea{
     resize: none;
