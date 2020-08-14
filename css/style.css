@@ -403,6 +403,7 @@ body{
 
 .modal-icon{
     position: absolute;
+    display: inline-block;
     top: 50%;
     left: 15px;
     transform: translateX(-50%);
@@ -414,18 +415,19 @@ body{
     color: #2196F3;
 } */
 
-.modal-form-field:focus-within > .modal-icon{
+/* .modal-form-field:focus-within > .modal-icon{
     color: #2196F3;
-}
+} */
 
 .modal-form-comment{
     display: flex;
     width: 448px;
     flex-direction: column;
     text-align: left;
+    font-size: 12px;
+    font-family: Roboto;
     margin-bottom: 20px;
 }
-
 
 
 textarea{
