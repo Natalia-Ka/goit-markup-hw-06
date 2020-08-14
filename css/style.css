@@ -347,6 +347,7 @@ body{
 }
 
 .modal-form{
+    display: block;
     width: 448px;
     padding-left: 40px;
     padding-right: 40px;
@@ -354,8 +355,11 @@ body{
 }
 
 .modal-form-label{
-    margin-bottom: 4px;
-   
+    margin-bottom: 4px; 
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
 }
 
 
@@ -364,10 +368,12 @@ body{
     display: flex;
     width: 448px;
     flex-direction: column;
+    text-align: left;
     margin-bottom: 10px;
 } 
 
-.modal-form-label{
+
+/* .modal-form-label{
     position: absolute;
     top: 50%;
     left: 15px;
@@ -375,7 +381,7 @@ body{
     transition: transform 250mx linear;
 
     padding-left: 40px;
-}
+} */
 
 .modal-form-input{  
     letter-spacing: 0.01em;
@@ -390,16 +396,16 @@ body{
     border-radius: 4px;
 }
 
-.modal-form-input:focus + .modal-form-label,
+/* .modal-form-input:focus + .modal-form-label,
 .modal-form-input:not(:placeholder-shown) + .modal-form-label{
     transform: translateY(-50px);
-}
+} */
 
 .modal-icon{
     position: absolute;
     top: 50%;
     left: 15px;
-    transform: translateY(-50%);
+    transform: translateX(-50%);
     color:  #212121;
 }
 
@@ -416,9 +422,12 @@ body{
     display: flex;
     width: 448px;
     flex-direction: column;
-    justify-content: center;
+    text-align: left;
     margin-bottom: 20px;
 }
+
+
+
 
 
 textarea{
@@ -426,11 +435,17 @@ textarea{
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+
+    padding: 12px 16px;
 }
 
 .modal-form-comment::placeholder{
-    color: rgba(117, 117, 117, 0.5);
+    display: inline-block;
     letter-spacing: 0.01em;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
 }
 
 
@@ -441,15 +456,16 @@ textarea{
 
 
 .icon-checkbox{
-    content:"";
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 16px;
+    height: 15px;
+
+    border: 2px solid #212121;
 }
 
-.checkbox :checked + .icon-checkbox{
+.checkbox:checked + .icon-checkbox{
     background-color: yellow;
+    background-image: url(../images/checkbox-active.svg);
 }
 
 /* .btn-submit{
