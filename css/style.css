@@ -373,6 +373,8 @@ body{
     left: 15px;
     transform: translateY(-50%);
     transition: transform 250mx linear;
+
+    padding-left: 40px;
 }
 
 .modal-form-input{  
@@ -407,7 +409,7 @@ body{
 } */
 
 .modal-form-field:focus-within > .modal-icon{
-    background-color: #2196F3;
+    color: #2196F3;
 }
 
 .modal-form-comment{
@@ -431,11 +433,23 @@ textarea{
     letter-spacing: 0.01em;
 }
 
-.checkbox-text{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
+
+.checkbox{
+    appearance: none;
+    position: absolute;
+}
+
+
+.icon-checkbox{
+    content:"";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.checkbox :checked + .icon-checkbox{
+    background-color: yellow;
 }
 
 /* .btn-submit{
