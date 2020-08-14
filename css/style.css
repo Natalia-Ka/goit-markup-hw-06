@@ -450,9 +450,9 @@ textarea{
 
 
 .checkbox{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
     position: absolute;
 }
 
@@ -467,11 +467,10 @@ textarea{
     display: inline-block;
     width: 16px;
     height: 15px;
-
     border: 2px solid #212121;
 }
 
-.checkbox:checked + .icon-checkbox{
+.checkbox:checked ~ .icon-checkbox{
     background-color: yellow;
     background-image: url(../images/checkbox-active.svg);
 }
