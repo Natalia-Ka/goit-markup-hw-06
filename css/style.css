@@ -351,7 +351,7 @@ body{
     width: 448px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 40px;
+    padding-top: 12px;
 }
 
 .modal-form-label{
@@ -478,9 +478,13 @@ textarea{
 }
 
 
-/* .btn-submit{
-    align-items: center;
-} */
+.submit{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
 
 
 /* загаловки */
