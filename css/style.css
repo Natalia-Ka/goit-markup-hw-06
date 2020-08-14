@@ -428,8 +428,6 @@ body{
 
 
 
-
-
 textarea{
     resize: none;
 
@@ -454,6 +452,12 @@ textarea{
     position: absolute;
 }
 
+.checkbox-label{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575; 
+}
 
 .icon-checkbox{
     display: inline-block;
@@ -467,6 +471,12 @@ textarea{
     background-color: yellow;
     background-image: url(../images/checkbox-active.svg);
 }
+
+.policy-text{
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
 
 /* .btn-submit{
     align-items: center;
