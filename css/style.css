@@ -446,11 +446,10 @@ textarea{
 
 
 .checkbox{
-    visibility: hidden;
-    /* -webkit-appearance:none;
+    -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
-    position:absolute; */
+    position:absolute;
 }
 
 .checkbox-label{
