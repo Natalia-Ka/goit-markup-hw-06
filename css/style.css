@@ -480,14 +480,25 @@ textarea{
     border-radius: 2px;
 
     margin-right: 7px;
+
+    transition: transform 250ms linear;
 }
 
 .checkbox:checked + .icon-checkbox{
+    transform: scale(1.2);
     border-color: var(--accent-color);
     background-color: var(--accent-color);
     background-image: url(../images/icon-check.svg);
     background-size: contain;
     background-origin: border-box;
+}
+
+.checkbox:checked ~ .label{
+    transform: translate(20px);
+}
+
+.label{
+    transition: transform 250ms linear;
 }
 
 .policy-text{
