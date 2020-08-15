@@ -334,7 +334,6 @@ body{
    
 }
 
-
 .modal-title{
    font-weight: bold;
    font-size: 20px;
@@ -345,6 +344,8 @@ body{
 
    margin-bottom: 12px;
 }
+
+/* форма модального окна  */
 
 .modal-form{
     display: block;
