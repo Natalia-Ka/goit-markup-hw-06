@@ -326,12 +326,17 @@ body{
 .icon-close{
     width: 30px;
     height: 30px;
-    color: var(--black);
+    fill: var(--black);
     background: var(--primary-white-color);
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1); 
     padding: 6px;
    
+}
+
+.icon-close:hover,
+.icon-close:focus{
+    fill: var(--accent-color);
 }
 
 .modal-title{
