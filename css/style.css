@@ -416,7 +416,7 @@ body{
 } */
 
 .modal-form-field:focus-within > .modal-icon{
-    color:  #2196F3;
+     color:  #2196F3;
 }
 
 .modal-form-comment{
@@ -488,6 +488,8 @@ textarea{
     margin-bottom: 40px;
     margin-top: 30px;
 }
+
+
 
 
 /* загаловки */
